@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please let me use your location</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow camera</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Please allow media library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow to choose profile</string>
 </dict>
 </plist>

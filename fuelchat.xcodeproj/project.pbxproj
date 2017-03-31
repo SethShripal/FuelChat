@@ -8,24 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		2E9B1F3E7B0A34992969CB26 /* Pods_fuelchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2058904A776584732A461E8 /* Pods_fuelchat.framework */; };
+		80A9FE111E8E9B4C00EAACA7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A9FE101E8E9B4C00EAACA7 /* ProfileViewController.swift */; };
 		80AFCEBA1E8BAB2900018207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCEB91E8BAB2900018207 /* AppDelegate.swift */; };
 		80AFCEBC1E8BAB2900018207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCEBB1E8BAB2900018207 /* ViewController.swift */; };
-		80AFCEBF1E8BAB2900018207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AFCEBD1E8BAB2900018207 /* Main.storyboard */; };
 		80AFCEC21E8BAB2900018207 /* fuelchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCEC01E8BAB2900018207 /* fuelchat.xcdatamodeld */; };
 		80AFCEC41E8BAB2900018207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AFCEC31E8BAB2900018207 /* Assets.xcassets */; };
 		80AFCEC71E8BAB2900018207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AFCEC51E8BAB2900018207 /* LaunchScreen.storyboard */; };
+		80AFCECF1E8BADD000018207 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80AFCECE1E8BADD000018207 /* GoogleService-Info.plist */; };
+		80AFCF041E8BB26500018207 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80AFCF011E8BB26500018207 /* ProgressHUD.bundle */; };
+		80AFCF051E8BB26500018207 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCF031E8BB26500018207 /* ProgressHUD.m */; };
+		80AFCF081E8BB2D500018207 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCF071E8BB2D500018207 /* RNCryptor.swift */; };
+		80AFCF0B1E8BB69500018207 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFCF0A1E8BB69500018207 /* CoreLocation.framework */; };
+		80AFCF0D1E8BB69D00018207 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFCF0C1E8BB69D00018207 /* SystemConfiguration.framework */; };
+		80AFCF0F1E8BB6A600018207 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFCF0E1E8BB6A600018207 /* PushKit.framework */; };
+		80AFCF111E8BB87D00018207 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCF101E8BB87D00018207 /* Constants.swift */; };
+		80AFCF131E8BC69100018207 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFCF121E8BC69100018207 /* SignUpViewController.swift */; };
+		80FC91CA1E8C230C0064F77E /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FC91C91E8C230C0064F77E /* UsersViewController.swift */; };
+		80FC91CC1E8C26FE0064F77E /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FC91CB1E8C26FE0064F77E /* UserTableViewCell.swift */; };
+		80FC91CE1E8C2FFB0064F77E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FC91CD1E8C2FFB0064F77E /* ChatViewController.swift */; };
+		80FC91D01E8C303B0064F77E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FC91CF1E8C303B0064F77E /* AVFoundation.framework */; };
+		80FC91D31E8C41670064F77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FC91D11E8C41670064F77E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80218F6A55B34B2A48D7DFF8 /* Pods-fuelchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fuelchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-fuelchat/Pods-fuelchat.release.xcconfig"; sourceTree = "<group>"; };
+		80A9FE101E8E9B4C00EAACA7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		80AFCEB61E8BAB2900018207 /* fuelchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuelchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AFCEB91E8BAB2900018207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80AFCEBB1E8BAB2900018207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80AFCEBE1E8BAB2900018207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80AFCEC11E8BAB2900018207 /* fuelchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fuelchat.xcdatamodel; sourceTree = "<group>"; };
 		80AFCEC31E8BAB2900018207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80AFCEC61E8BAB2900018207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80AFCEC81E8BAB2900018207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AFCECE1E8BADD000018207 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80AFCED01E8BB12900018207 /* fuelchat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fuelchat-Bridging-Header.h"; sourceTree = "<group>"; };
+		80AFCF011E8BB26500018207 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		80AFCF021E8BB26500018207 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		80AFCF031E8BB26500018207 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		80AFCF071E8BB2D500018207 /* RNCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
+		80AFCF091E8BB2E300018207 /* RNCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		80AFCF0A1E8BB69500018207 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		80AFCF0C1E8BB69D00018207 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80AFCF0E1E8BB6A600018207 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		80AFCF101E8BB87D00018207 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80AFCF121E8BC69100018207 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		80FC91C91E8C230C0064F77E /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		80FC91CB1E8C26FE0064F77E /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		80FC91CD1E8C2FFB0064F77E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		80FC91CF1E8C303B0064F77E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		80FC91D21E8C41670064F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824859CA2AC4325CDD341576 /* Pods-fuelchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fuelchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fuelchat/Pods-fuelchat.debug.xcconfig"; sourceTree = "<group>"; };
 		F2058904A776584732A461E8 /* Pods_fuelchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fuelchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -35,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FC91D01E8C303B0064F77E /* AVFoundation.framework in Frameworks */,
+				80AFCF0F1E8BB6A600018207 /* PushKit.framework in Frameworks */,
+				80AFCF0D1E8BB69D00018207 /* SystemConfiguration.framework in Frameworks */,
+				80AFCF0B1E8BB69500018207 /* CoreLocation.framework in Frameworks */,
 				2E9B1F3E7B0A34992969CB26 /* Pods_fuelchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +89,10 @@
 		67BF31E2354B7D038611CCEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80FC91CF1E8C303B0064F77E /* AVFoundation.framework */,
+				80AFCF0E1E8BB6A600018207 /* PushKit.framework */,
+				80AFCF0C1E8BB69D00018207 /* SystemConfiguration.framework */,
+				80AFCF0A1E8BB69500018207 /* CoreLocation.framework */,
 				F2058904A776584732A461E8 /* Pods_fuelchat.framework */,
 			);
 			name = Frameworks;
@@ -62,6 +101,7 @@
 		80AFCEAD1E8BAB2900018207 = {
 			isa = PBXGroup;
 			children = (
+				80AFCF001E8BB24C00018207 /* ProgressHUD */,
 				80AFCEB81E8BAB2900018207 /* fuelchat */,
 				80AFCEB71E8BAB2900018207 /* Products */,
 				4127F401731EBDED453AEEB3 /* Pods */,
@@ -80,15 +120,44 @@
 		80AFCEB81E8BAB2900018207 /* fuelchat */ = {
 			isa = PBXGroup;
 			children = (
+				80AFCF061E8BB28300018207 /* Encryption */,
 				80AFCEB91E8BAB2900018207 /* AppDelegate.swift */,
 				80AFCEBB1E8BAB2900018207 /* ViewController.swift */,
-				80AFCEBD1E8BAB2900018207 /* Main.storyboard */,
+				80AFCF121E8BC69100018207 /* SignUpViewController.swift */,
+				80FC91C91E8C230C0064F77E /* UsersViewController.swift */,
+				80FC91CB1E8C26FE0064F77E /* UserTableViewCell.swift */,
+				80FC91CD1E8C2FFB0064F77E /* ChatViewController.swift */,
+				80AFCF101E8BB87D00018207 /* Constants.swift */,
+				80A9FE101E8E9B4C00EAACA7 /* ProfileViewController.swift */,
 				80AFCEC31E8BAB2900018207 /* Assets.xcassets */,
+				80FC91D11E8C41670064F77E /* Main.storyboard */,
 				80AFCEC51E8BAB2900018207 /* LaunchScreen.storyboard */,
 				80AFCEC81E8BAB2900018207 /* Info.plist */,
+				80AFCECE1E8BADD000018207 /* GoogleService-Info.plist */,
 				80AFCEC01E8BAB2900018207 /* fuelchat.xcdatamodeld */,
+				80AFCED01E8BB12900018207 /* fuelchat-Bridging-Header.h */,
 			);
 			path = fuelchat;
+			sourceTree = "<group>";
+		};
+		80AFCF001E8BB24C00018207 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				80AFCF011E8BB26500018207 /* ProgressHUD.bundle */,
+				80AFCF021E8BB26500018207 /* ProgressHUD.h */,
+				80AFCF031E8BB26500018207 /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = "ProgressHUD-master/ProgressHUD/ProgressHUD";
+			sourceTree = "<group>";
+		};
+		80AFCF061E8BB28300018207 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				80AFCF071E8BB2D500018207 /* RNCryptor.swift */,
+				80AFCF091E8BB2E300018207 /* RNCryptor.h */,
+			);
+			name = Encryption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +196,7 @@
 					80AFCEB51E8BAB2900018207 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 394X837842;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,8 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AFCEC71E8BAB2900018207 /* LaunchScreen.storyboard in Resources */,
+				80FC91D31E8C41670064F77E /* Main.storyboard in Resources */,
+				80AFCECF1E8BADD000018207 /* GoogleService-Info.plist in Resources */,
 				80AFCEC41E8BAB2900018207 /* Assets.xcassets in Resources */,
-				80AFCEBF1E8BAB2900018207 /* Main.storyboard in Resources */,
+				80AFCF041E8BB26500018207 /* ProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,28 +288,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AFCEBC1E8BAB2900018207 /* ViewController.swift in Sources */,
+				80FC91CC1E8C26FE0064F77E /* UserTableViewCell.swift in Sources */,
+				80AFCF131E8BC69100018207 /* SignUpViewController.swift in Sources */,
 				80AFCEBA1E8BAB2900018207 /* AppDelegate.swift in Sources */,
+				80AFCF081E8BB2D500018207 /* RNCryptor.swift in Sources */,
+				80AFCF051E8BB26500018207 /* ProgressHUD.m in Sources */,
+				80A9FE111E8E9B4C00EAACA7 /* ProfileViewController.swift in Sources */,
+				80FC91CA1E8C230C0064F77E /* UsersViewController.swift in Sources */,
 				80AFCEC21E8BAB2900018207 /* fuelchat.xcdatamodeld in Sources */,
+				80FC91CE1E8C2FFB0064F77E /* ChatViewController.swift in Sources */,
+				80AFCF111E8BB87D00018207 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80AFCEBD1E8BAB2900018207 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80AFCEBE1E8BAB2900018207 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80AFCEC51E8BAB2900018207 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				80AFCEC61E8BAB2900018207 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80FC91D11E8C41670064F77E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FC91D21E8C41670064F77E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,11 +421,14 @@
 			baseConfigurationReference = 824859CA2AC4325CDD341576 /* Pods-fuelchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 394X837842;
 				INFOPLIST_FILE = fuelchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shripaljain.fuelchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fuelchat/fuelchat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -355,11 +438,13 @@
 			baseConfigurationReference = 80218F6A55B34B2A48D7DFF8 /* Pods-fuelchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 394X837842;
 				INFOPLIST_FILE = fuelchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shripaljain.fuelchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fuelchat/fuelchat-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -383,6 +468,7 @@
 				80AFCECD1E8BAB2900018207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
